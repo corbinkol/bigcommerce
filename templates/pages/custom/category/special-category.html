@@ -28,6 +28,8 @@ category:
 {{/if}}
 {{#unless theme_settings.hide_category_page_heading }}
     <h1 class="page-heading">{{category.name}}</h1>
+    <div style="display: none;" id="alert">{{> components/common/alert-success}}</div>
+    <div class="u-textAlignRight"><button id="addAllToCart" class="button">Add All To Cart</button> <button style="display: none;" id="delAllInCart" class="button">Remove All Items</button></div>
     {{{region name="category_below_header"}}}
 {{/unless}}
 {{{category.description}}}
