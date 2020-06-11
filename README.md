@@ -12,8 +12,6 @@ The new page features:
 * Delete all from cart function with notification
 * Thumbnail image updates on hover
 
-[Stencil-utils](https://github.com/bigcommerce/stencil-utils) is our supporting library for our events and remote interactions.
-
 ## Demo Store 
 URL: [https://corbins-store.mybigcommerce.com/](https://corbins-store.mybigcommerce.com/)
 
